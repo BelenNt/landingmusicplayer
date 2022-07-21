@@ -1,0 +1,53 @@
+* {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+}
+
+.music-buttons-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  place-content: center;
+  place-items: center;
+}
+
+.music-button {
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  margin: 8px 12px;
+  border: none;
+  background-color: #11111111;
+  color: #fff;
+}
+
+.music-button:hover{
+  background-color: #11111199;
+  cursor:pointer;
+}
+
+.place-center {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+}
+
+.full-h {
+  height: 100vh;
+}
+
+.background-image {
+  width: 400px;
+  height: 400px;
+  background-image: url("../assets/img/rolling.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.white-text{
+  color:#fff;
+}
